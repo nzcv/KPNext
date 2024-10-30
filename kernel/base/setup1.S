@@ -291,9 +291,9 @@ setup:
     mov x19, x12
 
     mov x0, x19
-    bl start_prepare
+    // bl start_prepare
     mov x0, x19
-    bl map_prepare
+    // bl map_prepare
 
     // memcpy(kernel_pa, (uint64_t)setup_preset.header_backup, sizeof(setup_preset.header_backup));
     mov x0, x19
